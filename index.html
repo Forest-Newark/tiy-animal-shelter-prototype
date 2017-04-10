@@ -55,33 +55,33 @@
 <div class ="row">
 <div class="col-md-4">
 <div class="card text-center">
-<img class="card-img-top" src="images/animals/andrew-branch-192535.jpg" alt="Card image cap">
+<a href="#myModal" role="button" data-toggle="modal">
+  <img src="images/animals/andrew-branch-192535.jpg"  class="thumbnail glow-button">
+    </a>
 <div class="card-block">
-<h4 class="card-title">This is Card #1</h4>
-Some quick example text to build on the card title and make up the bulk of the card's content.<br>
-<a href="http://v4-alpha.getbootstrap.com/components/card/" class="btn btn-primary">Learn More</a>
+<h4 class="card-title">Daisy</h4>
 </div>
 </div>
 </div>  
     
 <div class="col-md-4">
 <div class="card text-center">
-<img class="card-img-top" src="images/animals/ricky-kharawala-10194.jpg" alt="Card image cap">
-<div class="card-block">
-<h4 class="card-title">This is Card #1</h4>
-Some quick example text to build on the card title and make up the bulk of the card's content.<br>
-<a href="http://v4-alpha.getbootstrap.com/components/card/" class="btn btn-primary">Learn More</a>
+    <a href="#myModal" role="button" data-toggle="modal">
+<img class="card-img-top thumbnail" src="images/animals/ricky-kharawala-10194.jpg" alt="Card image cap">
+    </a>
+        <div class="card-block">
+<h4 class="card-title">Skeeter</h4>
 </div>
 </div>
 </div>  
     
 <div class="col-md-4">
 <div class="card text-center">
-<img class="card-img-top" src="images/animals/sven-scheuermeier-156236.jpg" alt="Card image cap">
-<div class="card-block">
-<h4 class="card-title">This is Card #1</h4>
-Some quick example text to build on the card title and make up the bulk of the card's content.<br>
-<a href="http://v4-alpha.getbootstrap.com/components/card/" class="btn btn-primary">Learn More</a>
+    <a href="#myModal" role="button" data-toggle="modal">
+<img class="card-img-top thumbnail" src="images/animals/sven-scheuermeier-156236.jpg" alt="Card image cap">
+    </a>
+        <div class="card-block">
+<h4 class="card-title">Louis</h4>
 </div>
 </div>
 </div>  
@@ -143,7 +143,7 @@ Some quick example text to build on the card title and make up the bulk of the c
 
 </div>
 </section>
-      
+    
 
 <!--Footer-->
 <section class="footer" id="footer">
@@ -156,6 +156,41 @@ Some quick example text to build on the card title and make up the bulk of the c
         
       
 <!--wrapper end-->
+        
+        
+        <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Detail Animal Information</h4>
+      </div>
+      <div class="modal-body">
+          <div class="row">
+              <div class="col-md-12">
+          <img class="modal-image img-responsive" src="http://placehold.it/400x400">
+              </div>
+                                                                    
+          </div>
+        <h3 class ="text-center">[Animal Name]</h3>
+        <h3 class ="text-center">[Animal Species]</h3>
+        <h3 class ="text-center">[Animal Breed]</h3>
+        <h3 class ="text-center">[Animal Description]</h3>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
         
 
     </body>
